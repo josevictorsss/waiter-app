@@ -1,3 +1,13 @@
+import React from "react";
+import { Header } from "./components/Header";
+
+import { GlobalStyles } from "./styles/GlobalStyles";
+
 export function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <React.Fragment>
+      <GlobalStyles />
+      <Header />
+    </React.Fragment>
+  );
 }
